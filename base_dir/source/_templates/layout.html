@@ -1,0 +1,19 @@
+{% extends "!layout.html" %}
+{%- set rellinks = [] %}
+{% block rootrellink %} </pre>
+<ul>
+
+	<li><a href="index.html">Home</a> |</li>
+	<li><a href="resume.html">Resume</a> |</li>
+	<li><a href="project.html">Project</a> |</li>
+	<li><a href="interest.html">Interest</a> |</li>
+	<li><a href="contact.html">Contact</a> |</li>
+	<li>{% endblock %}
+
+{% block relbar2 %}
+{% endblock %}
+
+The teamplate above creates a header navigation bar of different entries
+
+{%- set rellinks = [] %} disables related link (i.e. prev, next and index).
+
